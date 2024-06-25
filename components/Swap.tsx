@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Swap = () => {
   return (
-    <div className="mt-20 px-3">
+    <div className="mt-20 px-3 max-w-3xl mx-auto">
       <div className="border border-gray-400 rounded-xl p-5">
         <div className="flex items-center space-x-3">
           <p>From:</p>
