@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/Footer";
+import { RainbowProvider } from "@/components/RainbowProvider";
+import '@rainbow-me/rainbowkit/styles.css';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} max-w-7xl mx-auto`}>
-        {children}
+        <RainbowProvider>{children}</RainbowProvider>
         <Footer />
       </body>
     </html>
