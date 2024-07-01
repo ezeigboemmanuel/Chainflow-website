@@ -24,7 +24,7 @@ const Navbar = () => {
         </div>
         {/* Change the Get started after connecting */}
         
-          <div className="flex justify-center items-center border border-gray-400 px-2 py-3 rounded-xl font-semibold">
+          <div className="flex justify-center items-center  px-2 rounded-xl font-semibold">
             <ConnectButton />
           </div>
       </div>
